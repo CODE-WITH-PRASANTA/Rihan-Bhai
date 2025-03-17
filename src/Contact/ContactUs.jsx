@@ -49,10 +49,6 @@ const ContactUs = () => {
           <div className="main-contact-left-section">
             <h2 className="contact-heading">Talk to us</h2>
             <h1 className="contact-title">Any Question? Feel Free to Contact</h1>
-            <p className="contact-description">
-              With a vast array of popular private planes to choose from, travelling by
-               flight is the most efficient.
-            </p>
             <div className="contact-social-icons">
               <FaFacebookF className="social-icon" />
               <FaTwitter className="social-icon" />

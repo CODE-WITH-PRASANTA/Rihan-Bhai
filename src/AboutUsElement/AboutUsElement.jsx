@@ -26,7 +26,7 @@ const AboutUsElement = () => {
           <div className="call-card" style={{ backgroundImage: `url(${callandbookbg})` }}>
             <div className="call-details">
               <p className="call-text">Call for book quick:</p>
-              <p className="call-number">+1(833) 713-14-25</p>
+              <p className="call-number">+1 (822)213-8950</p>
             </div>
             <button
   className="about-book-now"
