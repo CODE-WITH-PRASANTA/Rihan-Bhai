@@ -9,7 +9,11 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-info">
           <h2 className="footer-title"> <span>Fly</span>USA</h2>
+          <div className="privacy-poicy-full">
+          <h4><a href="/disclimer" className="privacy-policy">Disclaimer </a></h4>
+          <h4><a href="/termandcondition" className="privacy-policy">Term & Condition</a></h4>
           <h4><a href="/privacypolicy" className="privacy-policy">Privacy Policy</a></h4>
+          </div>
         </div>
        
       </div>

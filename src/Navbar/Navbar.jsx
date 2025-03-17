@@ -33,11 +33,12 @@ const Navbar = () => {
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
         <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
-          <li className="menu-item book-now" >
-            <button className="book-now-btn">
+        <li className="menu-item book-now">
+            <a href="tel:+18337131425" className="book-now-btn">
               <MdFlightTakeoff className="icon" /> Call Now
-            </button>
+            </a>
           </li>
+
         </ul>
       </div>
     </nav>

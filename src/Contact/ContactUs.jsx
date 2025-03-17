@@ -51,7 +51,7 @@ const ContactUs = () => {
             <h1 className="contact-title">Any Question? Feel Free to Contact</h1>
             <p className="contact-description">
               With a vast array of popular private planes to choose from, travelling by
-              private jet charter is the most efficient.
+               flight is the most efficient.
             </p>
             <div className="contact-social-icons">
               <FaFacebookF className="social-icon" />

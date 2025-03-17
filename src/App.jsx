@@ -5,6 +5,8 @@ import Home from './Home/Home';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import TermandConditionCancelation from './TermandConditionCancelation/TermandConditionCancelation';
+import Disclimer from './Disclimer/Disclimer';
+import Terms from './Terms/Terms';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -65,6 +67,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/privacypolicy' element={<TermandConditionCancelation />}/>
+        <Route path='/disclimer' element={<Disclimer />}/>
+        <Route path='/termandcondition' element={<Terms />}/>
+
       </Routes>
 
       <Footer />

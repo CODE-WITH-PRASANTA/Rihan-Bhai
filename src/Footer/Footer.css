@@ -301,3 +301,11 @@
     text-decoration: underline;
   }
   
+.privacy-poicy-full{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  
+}
+

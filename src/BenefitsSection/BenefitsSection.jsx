@@ -24,12 +24,14 @@ const BenefitsSection = () => {
             </p>
           </div>
           <div className="benefit-item">
-            <FaUserGraduate className="benefit-icon" />
-            <h3>Career Progression</h3>
-            <p>
-              The first small jet-powered civil aircraft was the Morane-Saulnier MS.760 Paris, developed privately since the 1940s.
-            </p>
-          </div>
+  <FaUserGraduate className="benefit-icon" />
+  <h3>Proper Comfort</h3>
+  <p>
+    Experience unparalleled comfort with ergonomically designed seating, ample legroom, and a smooth, noise-free environment. 
+    Our commitment to premium materials and cutting-edge technology ensures a relaxing and enjoyable experience.
+  </p>
+</div>
+
           <div className="benefit-item">
             <FaClock className="benefit-icon" />
             <h3>Flexible Schedule</h3>

@@ -1,0 +1,129 @@
+/* Wrapper for full-page styling */
+.disclaimer-wrapper {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main container for the disclaimer content */
+  .disclaimer-container {
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Title styling */
+  .disclaimer-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #E94e77;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #E94e77;
+    padding-bottom: 12px;
+  }
+  
+  /* Section styling */
+  .disclaimer-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Section headings */
+  .disclaimer-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+    border-left: 5px solid #E94e77;
+    padding-left: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Add hover effect for headings */
+  .disclaimer-heading:hover {
+    color: #E94e77;
+    cursor: pointer;
+  }
+  
+  /* Text styling */
+  .disclaimer-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* List styling */
+  .disclaimer-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .disclaimer-list li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  
+  /* Add custom bullet points */
+  .disclaimer-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #E94e77;
+    font-weight: bold;
+  }
+  
+  /* Contact section */
+  .disclaimer-contact {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .disclaimer-contact a {
+    color: #E94e77;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .disclaimer-contact a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .disclaimer-container {
+      padding: 25px;
+    }
+  
+    .disclaimer-title {
+      font-size: 26px;
+    }
+  
+    .disclaimer-heading {
+      font-size: 20px;
+    }
+  
+    .disclaimer-container p,
+    .disclaimer-list li {
+      font-size: 16px;
+    }
+  }
+  
