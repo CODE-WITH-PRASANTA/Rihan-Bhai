@@ -30,7 +30,7 @@ const AboutUsElement = () => {
             </div>
             <button
   className="about-book-now"
-  onClick={() => (window.location.href = "tel:+18337131425")}
+  onClick={() => (window.location. href="tel:+18222138950")}
 >
   <FaPlane className="plane-icon" /> Call Now
 </button>

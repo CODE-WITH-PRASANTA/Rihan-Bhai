@@ -34,7 +34,7 @@ const Navbar = () => {
         </button>
         <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
         <li className="menu-item book-now">
-            <a href="tel:+18337131425" className="book-now-btn">
+            <a  href="tel:+18222138950" className="book-now-btn">
               <MdFlightTakeoff className="icon" /> Call Now
             </a>
           </li>
